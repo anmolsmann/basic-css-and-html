@@ -1,0 +1,104 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(thomas-serer-r-xKieMqL34-unsplash.jpg);
+    background-size: cover;
+}
+
+.left {
+    display: inline-block;
+    /* border: 5px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+
+}
+
+.mid {
+    font-size: large;
+    display: block;
+    /* border: 5px solid yellow; */
+    width: 45%;
+    margin: 20px auto;
+    margin-left: 430px;
+}
+
+.right {
+    display: inline-block;
+    /* border: 5px solid green; */
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img {
+    width: 60px;
+    padding-left: 22px;
+}
+
+.left div{
+    font-size: 17px;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Kanit', sans-serif;
+    margin: 10px 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    border: 2px solid grey;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(153, 149, 149);
+}
+.container{
+    /* border: 2px solid white; */
+    margin: 130px 65px;
+    padding: 35px;
+    width: 30%;
+    border-radius: 30px;
+}
+.form-group input{
+    border-radius: 10px;
+    font: 20px;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 5px;
+    border: 3px solid black;
+    margin: 3px auto;
+}
+h2{
+    text-align: center;
+}
+#send{
+    margin-left: 172px;
+    margin-top: 10px;
+    padding: 0px 20px 0px 20px;
+}
